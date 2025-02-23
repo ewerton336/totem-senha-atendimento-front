@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 40px;
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.button {
+  width: 40%;
+  height: 20%;
+  font-size: 50px;
+}
+
+.preferencial {
+  background-color: #ff4d4f !important;
+  border-color: #ff4d4f !important;
+}
