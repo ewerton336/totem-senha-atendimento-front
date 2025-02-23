@@ -4,12 +4,12 @@ export interface SenhaRequest {
   prioritario: boolean;
 }
 
-export interface SenhaResponse {
+export interface Senha {
   id: number;
-  senha: string;
+  codigo: string;
   prioritario: boolean;
 }
 
-const senhaApi = createGenericCrudAPI<SenhaRequest, SenhaResponse>("senhas");
+const senhaApi = createGenericCrudAPI<SenhaRequest, Senha>("senhas");
 
 export default senhaApi;

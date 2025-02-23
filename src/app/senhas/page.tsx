@@ -10,7 +10,7 @@ export default function Senhas() {
     onSuccess: (data) => {
       notification.success({
         message: "Senha gerada com sucesso",
-        description: `Senha: ${data.senha}`,
+        description: `Senha: ${data.codigo}`,
       });
     },
     onError: (error) => {
